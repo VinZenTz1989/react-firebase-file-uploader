@@ -1,0 +1,19 @@
+input[type=file].ffui-hidden {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+input[type=file].ffui-hidden + label {
+  display: inline-block;
+  cursor: pointer; /* "hand" cursor */
+}
+
+input[type=file].ffui-hidden:focus + label,
+input[type=file].ffui-hidden.ffui-hidden-focused + label {
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px;
+}

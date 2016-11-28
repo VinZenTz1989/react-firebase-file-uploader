@@ -1,0 +1,17 @@
+body {
+  font-family: 'Open Sans';
+}
+
+.upload-button {
+  padding: 10px 20px;
+  color: indianred;
+  font-weight: 500;
+  border: 2px solid indianred;
+}
+
+.upload-button:hover,
+.upload-button:focus,
+.upload-button.has-focus {
+  background-color: indianred;
+  color: white;
+}
